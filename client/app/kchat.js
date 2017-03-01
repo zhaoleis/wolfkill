@@ -19,7 +19,7 @@ KChat.prototype = {
 		var that = this;
 
 		//建立与服务器的socket连接
-		this.socket = io.connect();
+		this.socket = io.connect('ws://localhost:8001');
 
 		//监听socket的connect事件，此事件表示连接已经建立
 		this.socket.on('connect',function(){

@@ -28,7 +28,7 @@ function getRooms() {
 }
 
 function initConnect() {
-  this.socket = io.connect();
+  this.socket = io.connect('ws://localhost:8001');
   this.socket.on('connect', function () {
     console.log('建立连接')
   });
