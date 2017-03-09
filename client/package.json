@@ -66,6 +66,7 @@
     "html-webpack-plugin": "^2.19.0",
     "open-browser-webpack-plugin": "0.0.2",
     "react-tap-event-plugin": "^2.0.1",
+    "socket.io-client": "^1.7.3",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "validate-commit-msg": "^2.6.1",

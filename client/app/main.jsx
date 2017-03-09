@@ -8,6 +8,7 @@ import Login from './Auth/components/Login'
 import AppContainer from './Common/containers/AppContainer'
 import IndexContainer from './Auth/containers/IndexContainer'
 import './main.css'
+import 'antd/dist/antd.css'
 
 injectTapEventPlugin()
 const store = myStore()
