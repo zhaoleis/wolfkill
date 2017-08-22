@@ -59,6 +59,7 @@ io.on('connection', function (socket) {
 	})
 	//洗牌算法
 	function shuffle(input) {
+		console.log(input)
 		for (var i = input.length - 1; i >= 0; i--) {
 			var randomIndex = Math.floor(Math.random() * (i + 1));
 			var itemAtIndex = input[randomIndex];
